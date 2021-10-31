@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="md-col-8">
+            <button class="btn btn-primary" (click)="onStartGame()" >Start</button>
+            <button class="btn btn-danger" (click)="onPauseGame()">Stop</button>
+        </div>
+        <div class="md-col-4">
+            <h3>{{lastNumber}}</h3>
+        </div>
+        <!-- <p [ngStyle]="{backgroundColor: getColor()}">Odd - {{lastNumber}}</p> -->
+    </div>
+</div>
